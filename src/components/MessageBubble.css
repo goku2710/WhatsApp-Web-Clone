@@ -1,0 +1,26 @@
+.bubble {
+  max-width: 60%;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  border-radius: 8px;
+  position: relative;
+  color: #000;
+}
+
+.bubble.user {
+  background-color: #dcf8c6;
+  margin-left: auto;
+}
+
+.bubble.other {
+  background-color: #fff;
+  margin-right: auto;
+}
+
+.time {
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+  color: gray;
+}
