@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// ✅ Backend base URL (Render)
 const API_BASE = "https://whatsapp-clone-backend-ytez.onrender.com/api/messages";
 
 // GET /api/messages/chats
