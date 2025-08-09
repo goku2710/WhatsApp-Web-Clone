@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000/api/messages'; // If running locally
+const API_BASE = "https://whatsapp-clone-backend-ytez.onrender.com"; 
 
 export const getChats = () => axios.get(`${API_BASE}/chats`);
 
